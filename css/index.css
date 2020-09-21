@@ -1,0 +1,80 @@
+body {
+    background-color: #FFF;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: static;
+}
+
+.container {
+    border: 1px solid;
+    border-top: 1px solid;
+    border-bottom-color: hsl(120, 43%, 99%);
+    border-color: beige;
+    margin: 0% auto;
+    width: 1250px;
+}
+
+.header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+.navigation {
+    text-align: center;
+    background-color: rgb(3, 121, 19);
+    padding: 0px;
+    border: 0px solid;
+}
+
+a {
+    padding: 10px 5px 9px 5px;
+    color: #FFF;
+    text-decoration: none;
+    position: relative;
+}
+
+li {
+    padding: 15px 0px;
+    display: inline-block;
+}
+
+.nav {
+    color: FFF;
+    padding: 1px;
+    height: 700px;
+    padding-top: 100px;
+}
+
+.events {
+    text-align: center;
+    background-color: #FFF;
+    float: right;
+    width: 625px;
+    height: 700px;
+}
+
+.content {
+    background-color: FFF;
+    text-align: center;
+    border-right: 2px ridge;
+    height: 700px;
+    width: 600px;
+    float: left;
+}
+
+.sidebar {
+    background-color: FFF;
+    float: right;
+    height: 700px;
+    width: 250px;
+    border-left: 2px ridge;
+}
+
+.footer {
+    border-bottom: 3px ridge;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid;
+    color: rgb(17, 17, 17);
+}
